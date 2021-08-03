@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",  //引入绝对路径会在src下查找
     "target": "es5",
     "lib": [
       "dom",
@@ -15,7 +16,7 @@
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
+    "resolveJsonModule": true, 
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
