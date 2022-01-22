@@ -49,6 +49,11 @@
     "mrm": "^3.0.10",
     "prettier": "2.3.2"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"git commit trigger husky pre-commit hook\" "
+    }
+  },
   "lint-staged": {
     "*.{js,css,md,,ts,tsx}": "prettier --write"
   }
